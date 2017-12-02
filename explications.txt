@@ -43,3 +43,14 @@ si leur contenu convient ou non à l'intégration du projet.
 
 La commande : 'git branch' permet d'afficher la liste des branches existantes et 'git branch "nom_de_la_branche" ' permet d'en créer une nouvelle.
 Pour te déplacer d'une branche à l'autre c'est comme pour se déplacer d'un commit à l'autre avec la commande : 'git checkout "nom_de_la branche" '
+
+---------------------------------------------------
+
+Pour plus d'informations, deux grands classiques :
+- consulter la documentation : https://git-scm.com/documentation,
+- taper le nom d'une commande avec l'argument -h pour afficher l'aide dans ta console.
+
+Pense à l'ami google et au site Openclassrooms sur lequel je me forme.
+
+J'ai également créé un repository sur Github qui reprend le présent fichier pour illustrer ce que je viens de t'expliquer.
+Il se trouve à l'adresse suivante : https://github.com/Dheryo/explications_git
