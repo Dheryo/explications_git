@@ -1,0 +1,6 @@
+Salut,
+
+J'ai bien reçu ton message pour me poser les questions suivantes sur GIT :
+- Qu'est-ce qu'un commit,
+- À quoi sert la commande git log,
+- Qu'est-ce qu'une branche.
