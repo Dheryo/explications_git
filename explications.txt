@@ -1,48 +1,60 @@
 Salut,
 
-J'ai bien reçu ton message pour me poser les questions suivantes sur GIT :
-- Qu'est-ce qu'un commit,
-- À quoi sert la commande git log,
-- Qu'est-ce qu'une branche.
+J'ai bien reÃ§u ton message pour me poser les questions suivantes sur GIT :
+1 - Qu'est-ce qu'un commit,
+2 - Ã€ quoi sert la commande git log,
+3 - Qu'est-ce qu'une branche.
 
-Un commit c'est comme une photo de l'état de ton projet.
-Quand tu as finis de modifier une partie de ton projet (correction d'une fonction par exemple), tu fais une 'photo' (un commit) qui garde une image de l'état actuel du projet.
-N'oublie pas d'indiquer un message explicite qui correspond à tes modifications ("Correction de la fonction 'nom_de_la_fonction'" par exemple),
-c'est important pour t'y retrouver plus tard ou pour si vous travaillez à plusieurs sur le projet.
-Ensuite, tu peux l'envoyer sur Github ou continuer à travailler sur ton pc d'abord.
-Fais autant de commits que nécessaire mais pas pour rien histoire de pas alourdir la liste de commits pour rien.
+
+---------------------------------------------------
+1)
+Un commit c'est comme une photo de l'Ã©tat de ton projet.
+Quand tu as finis de modifier une partie de ton projet (correction d'une fonction par exemple), tu fais une 'photo' (un commit) qui garde une image de l'Ã©tat actuel du projet.
+N'oublie pas d'indiquer un message explicite qui correspond Ã  tes modifications ("Correction de la fonction 'nom_de_la_fonction'" par exemple),
+c'est important pour t'y retrouver plus tard ou pour si vous travaillez Ã  plusieurs sur le projet.
+Ensuite, tu peux l'envoyer sur Github ou continuer Ã  travailler sur ton pc d'abord.
+Fais autant de commits que nÃ©cessaire mais pas pour rien histoire de pas alourdir la liste de commits pour rien.
 J'insiste sur le fait de pouvoir s'y retrouver plus tard.
-C'est comme quand tu as appris à respecter des conventions d'écriture dans tes programmes et à les commenter clairement.
+C'est comme quand tu as appris Ã  respecter des conventions d'Ã©criture dans tes programmes et Ã  les commenter clairement.
 
-Pour rappel, tu fais un commit avec la commande : 'git commit -m "Explication simple et claire des modifications" '
+Pour rappel, tu fais un commit avec la commande : 
+              'git commit -m "Explication simple et claire des modifications" '
 
 
-La commande git log sert simplement à afficher la liste de tous les commits effectués sur la branche active (je reviens sur les branches après puisque c'est ta dernière question).
-Les commits sont affichés dans l'ordre du plus récent au plus vieux.
-Les informations données sont :
-- le SHA (son identifiant unique qui te sert notamment à revenir sur ce commit), c'est la suite hexadécimale à rallonge,
+---------------------------------------------------
+2)
+La commande git log sert simplement Ã  afficher la liste de tous les commits effectuÃ©s sur la branche active (je reviens sur les branches aprÃ¨s puisque c'est ta derniÃ¨re question).
+Les commits sont affichÃ©s dans l'ordre du plus rÃ©cent au plus vieux.
+Les informations donnÃ©es sont :
+- le SHA (son identifiant unique qui te sert notamment Ã  revenir sur ce commit), c'est la suite hexadÃ©cimale Ã  rallonge,
 - le nom de l'auteur pour suivre qui a fait tel ou tel commit,
-- la date et l'heure à laquelle le commit a été effectué,
-- et le fameux message si important qui permet de savoir facilement à quoi a servi le commit, d'où encore une fois l'intérêt d'un message clair.
+- la date et l'heure Ã  laquelle le commit a Ã©tÃ© effectuÃ©,
+- et le fameux message si important qui permet de savoir facilement Ã  quoi a servi le commit, d'oÃ¹ encore une fois l'intÃ©rÃªt d'un message clair.
 
-La commande, tu la connais, c'est juste : 'git log'
+La commande, tu la connais, c'est juste : 
+              'git log'
 
 
+---------------------------------------------------
+3)
 Enfin, les branches. Il me semble qu'un exemple d'utilisation des branches sera plus parlant.
-Admettons que tu développes un jeu solo.
-En cours de développement, tu te dis qu'il faudrait essayer d'ajouter un mode multi et tu me demandes de t'aider sur cette partie pour gagner du temps.
-Plutôt que travailler sur la même version du projet, je vais créer une nouvelle branche.
-A partir de là, les commits que je vais faire sur ma branche que j'aurais par exemple sobrement nommée "multi" 
-et les commits que tu feras sur la branche par défaut qui s'appelle "master" seront indépendants.
-Toi tu auras un projet avec tous tes commits et moi j'aurai une version parrallèle du projet avec les commits que tu avais
-effectués avant la création de la branche "multi" suivis de mes commits à moi sans que les deux projets parallèles interfèrent.
-A la fin, nous pourrons décider de 'merger' ma branche au "master" ou de la supprimer si tu décides que le mode multi développé ne s'intègre pas dans ton jeu.
-'merger' signifie que de la branche "master", l'un de nous va lancer une commande : 'git merge multi' pour demander à GIT de fusionner ma branche "multi" avec la branche "master".
-On peut aussi laisser la branche "multi" de côté en attendant de décider si elle devra être intégrée ou non mais le but des branches est d'être fusionnées ou supprimées dès qu'on sait
-si leur contenu convient ou non à l'intégration du projet.
+Admettons que tu dÃ©veloppes un jeu solo.
+En cours de dÃ©veloppement, tu te dis qu'il faudrait essayer d'ajouter un mode multi et tu me demandes de t'aider sur cette partie pour gagner du temps.
+PlutÃ´t que travailler sur la mÃªme version du projet, je vais crÃ©er une nouvelle branche.
+A partir de lÃ , les commits que je vais faire sur ma branche que j'aurais par exemple sobrement nommÃ©e "multi" 
+et les commits que tu feras sur la branche par dÃ©faut qui s'appelle "master" seront indÃ©pendants.
+Toi tu auras un projet avec tous tes commits et moi j'aurai une version parrallÃ¨le du projet avec les commits que tu avais
+effectuÃ©s avant la crÃ©ation de la branche "multi" suivis de mes commits Ã  moi sans que les deux projets parallÃ¨les interfÃ¨rent.
+A la fin, nous pourrons dÃ©cider de 'merger' ma branche au "master" ou de la supprimer si tu dÃ©cides que le mode multi dÃ©veloppÃ© ne s'intÃ¨gre pas dans ton jeu.
+'merger' signifie que de la branche "master", l'un de nous va lancer une commande : 'git merge multi' pour demander Ã  GIT de fusionner ma branche "multi" avec la branche "master".
+On peut aussi laisser la branche "multi" de cÃ´tÃ© en attendant de dÃ©cider si elle devra Ãªtre intÃ©grÃ©e ou non mais le but des branches est d'Ãªtre fusionnÃ©es ou supprimÃ©es dÃ¨s qu'on sait
+si leur contenu convient ou non Ã  l'intÃ©gration du projet.
 
-La commande : 'git branch' permet d'afficher la liste des branches existantes et 'git branch "nom_de_la_branche" ' permet d'en créer une nouvelle.
-Pour te déplacer d'une branche à l'autre c'est comme pour se déplacer d'un commit à l'autre avec la commande : 'git checkout "nom_de_la branche" '
+La commande : 'git branch' permet d'afficher la liste des branches existantes et 
+              'git branch "nom_de_la_branche" ' permet d'en crÃ©er une nouvelle.
+Pour te dÃ©placer d'une branche Ã  l'autre c'est comme pour se dÃ©placer d'un commit Ã  l'autre avec la commande : 
+              'git checkout "nom_de_la branche" '
+
 
 ---------------------------------------------------
 
@@ -50,7 +62,7 @@ Pour plus d'informations, deux grands classiques :
 - consulter la documentation : https://git-scm.com/documentation,
 - taper le nom d'une commande avec l'argument -h pour afficher l'aide dans ta console.
 
-Pense à l'ami google et au site Openclassrooms sur lequel je me forme.
+Pense Ã  l'ami google et au site Openclassrooms sur lequel je me forme.
 
-J'ai également créé un repository sur Github qui reprend le présent fichier pour illustrer ce que je viens de t'expliquer.
-Il se trouve à l'adresse suivante : https://github.com/Dheryo/explications_git
+J'ai Ã©galement crÃ©Ã© un repository sur Github qui reprend le prÃ©sent fichier pour illustrer ce que je viens de t'expliquer.
+Il se trouve Ã  l'adresse suivante : https://github.com/Dheryo/explications_git
