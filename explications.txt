@@ -26,3 +26,20 @@ Les informations données sont :
 - et le fameux message si important qui permet de savoir facilement à quoi a servi le commit, d'où encore une fois l'intérêt d'un message clair.
 
 La commande, tu la connais, c'est juste : 'git log'
+
+
+Enfin, les branches. Il me semble qu'un exemple d'utilisation des branches sera plus parlant.
+Admettons que tu développes un jeu solo.
+En cours de développement, tu te dis qu'il faudrait essayer d'ajouter un mode multi et tu me demandes de t'aider sur cette partie pour gagner du temps.
+Plutôt que travailler sur la même version du projet, je vais créer une nouvelle branche.
+A partir de là, les commits que je vais faire sur ma branche que j'aurais par exemple sobrement nommée "multi" 
+et les commits que tu feras sur la branche par défaut qui s'appelle "master" seront indépendants.
+Toi tu auras un projet avec tous tes commits et moi j'aurai une version parrallèle du projet avec les commits que tu avais
+effectués avant la création de la branche "multi" suivis de mes commits à moi sans que les deux projets parallèles interfèrent.
+A la fin, nous pourrons décider de 'merger' ma branche au "master" ou de la supprimer si tu décides que le mode multi développé ne s'intègre pas dans ton jeu.
+'merger' signifie que de la branche "master", l'un de nous va lancer une commande : 'git merge multi' pour demander à GIT de fusionner ma branche "multi" avec la branche "master".
+On peut aussi laisser la branche "multi" de côté en attendant de décider si elle devra être intégrée ou non mais le but des branches est d'être fusionnées ou supprimées dès qu'on sait
+si leur contenu convient ou non à l'intégration du projet.
+
+La commande : 'git branch' permet d'afficher la liste des branches existantes et 'git branch "nom_de_la_branche" ' permet d'en créer une nouvelle.
+Pour te déplacer d'une branche à l'autre c'est comme pour se déplacer d'un commit à l'autre avec la commande : 'git checkout "nom_de_la branche" '
