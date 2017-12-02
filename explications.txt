@@ -26,3 +26,15 @@ Les informations données sont :
 - et le fameux message si important qui permet de savoir facilement à quoi a servi le commit, d'où encore une fois l'intérêt d'un message clair.
 
 La commande, tu la connais, c'est juste : 'git log'
+
+
+---------------------------------------------------
+
+Pour plus d'informations, deux grands classiques :
+- consulter la documentation : https://git-scm.com/documentation,
+- taper le nom d'une commande avec l'argument -h pour afficher l'aide dans ta console.
+
+Pense à l'ami google et au site Openclassrooms sur lequel je me forme.
+
+J'ai également créé un repository sur Github qui reprend le présent fichier pour illustrer ce que je viens de t'expliquer.
+Il se trouve à l'adresse suivante : https://github.com/Dheryo/explications_git
