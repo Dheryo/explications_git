@@ -9,9 +9,20 @@ Un commit c'est comme une photo de l'état de ton projet.
 Quand tu as finis de modifier une partie de ton projet (correction d'une fonction par exemple), tu fais une 'photo' (un commit) qui garde une image de l'état actuel du projet.
 N'oublie pas d'indiquer un message explicite qui correspond à tes modifications ("Correction de la fonction 'nom_de_la_fonction'" par exemple),
 c'est important pour t'y retrouver plus tard ou pour si vous travaillez à plusieurs sur le projet.
-Ensuite, tu peux l'envoyer sur Github ou continuer à travailler sur ton pc d'abord. 
+Ensuite, tu peux l'envoyer sur Github ou continuer à travailler sur ton pc d'abord.
 Fais autant de commits que nécessaire mais pas pour rien histoire de pas alourdir la liste de commits pour rien.
-J'insiste sur le fait de pouvoir s'y retrouver plus tard. 
+J'insiste sur le fait de pouvoir s'y retrouver plus tard.
 C'est comme quand tu as appris à respecter des conventions d'écriture dans tes programmes et à les commenter clairement.
 
 Pour rappel, tu fais un commit avec la commande : 'git commit -m "Explication simple et claire des modifications" '
+
+
+La commande git log sert simplement à afficher la liste de tous les commits effectués sur la branche active (je reviens sur les branches après puisque c'est ta dernière question).
+Les commits sont affichés dans l'ordre du plus récent au plus vieux.
+Les informations données sont :
+- le SHA (son identifiant unique qui te sert notamment à revenir sur ce commit), c'est la suite hexadécimale à rallonge,
+- le nom de l'auteur pour suivre qui a fait tel ou tel commit,
+- la date et l'heure à laquelle le commit a été effectué,
+- et le fameux message si important qui permet de savoir facilement à quoi a servi le commit, d'où encore une fois l'intérêt d'un message clair.
+
+La commande, tu la connais, c'est juste : 'git log'
