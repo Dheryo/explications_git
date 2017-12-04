@@ -8,7 +8,11 @@ L'activité demande de répondre aux questions suivantes en utilisant le format 
 J'ai donc choisi de créer un fichier texte puis d'illustrer les explications en simulant la rédaction du fichier en question avec GIT et GITHUB.
 
 J'ai d'abord travaillé sur un fichier .txt pour un maximum de compatibilité.
-Puis voyant que les fichiers texte devaient être postés en .pdf, j'en ai profité pour d'abord retravailler mon fichier sous Word afin de l'améliorer.
-Je l'ai ensuite imprimé en .pdf pour la version finale à envoyer.
+Puis j'ai vu que les fichiers texte devaient être postés en .pdf.
+J'en ai profité pour d'abord retravailler mon fichier sous Word afin de l'améliorer avant de l'imprimer en .pdf.
+
+Je me suis enfin rendu compte que le format était limité à 2 pages (d'où l'importance de bien relire avant d'envoyer).
+J'ai donc travaillé à résumer les informations importantes et à moins espacer le contenu avant d'imprimer la version à envoyer.
+
 
 Bonne lecture.
